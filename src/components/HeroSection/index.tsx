@@ -33,15 +33,14 @@ export const HeroSection = ({ setModal, setPokemonData }: HeroSectionProps) => {
             </C.CharizardTypes>
             <C.CharizardName>Charizard</C.CharizardName>
             <C.CharizardDescription>
-              Charizard se assemelha a um grande tradicional dragão europeu.
-              Apesar da semelhança, Charizard é explicitamente um Pokémon dos
-              tipos Fogo e Voador, e não um tipo Dragão, exceto em sua forma
-              "Mega Charizard X"; No entanto, ele pode aprender ataques do tipo
-              Dragão.
+              Charizard resembles a large, traditional European dragon. Despite
+              its appearance, Charizard is a Fire- and Flying-type Pokémon, not
+              a Dragon type, except in its "Mega Charizard X" form. However, it
+              can learn Dragon-type moves.
             </C.CharizardDescription>
             <C.MoreDetailsButton onClick={handleClick}>
               <BoltIcon />
-              Mais Detalhes
+              More Details
             </C.MoreDetailsButton>
           </C.CharizardData>
 
@@ -54,7 +53,7 @@ export const HeroSection = ({ setModal, setPokemonData }: HeroSectionProps) => {
               src={imgSrc}
               width="488"
               height="528"
-              alt="Imagem do Charizard"
+              alt="Charizard image"
             />
           </C.CharizardImg>
         </C.Content>

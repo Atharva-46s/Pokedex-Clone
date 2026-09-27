@@ -42,7 +42,7 @@ export const SearchFilter = (props: SearchFilterProps) => {
 
   return (
     <C.Container>
-      <C.Title>Pesquisar por tipos</C.Title>
+      <C.Title>Filter by type</C.Title>
       <Slide>
         {pokemonTypes.map(({ name }) => (
           <PokemonType

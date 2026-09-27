@@ -74,14 +74,14 @@ export const PokemonModal = ({ setModal, pokemonData }: PokemonModalProps) => {
                 <WeightIcon />
                 <span>{`${pokemonData.weight / 10}`} kg</span>
               </div>
-              <span>Peso</span>
+              <span>Weight</span>
             </C.PokemonWeight>
             <C.PokemonHeight>
               <div>
                 <RulerIcon />
                 <span>{`${pokemonData.height / 10}`} m</span>
               </div>
-              <span>Altura</span>
+              <span>Height</span>
             </C.PokemonHeight>
           </C.PokemonFeatures>
         </C.PokemonData>

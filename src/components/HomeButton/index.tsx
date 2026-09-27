@@ -30,7 +30,7 @@ export const HomeButton = (props: HomeButtonProps) => {
       disabled={props.disabledButton ? true : false}
     >
       <HomeIcon />
-      Início
+      Home
     </C.HomeButton>
   );
 };

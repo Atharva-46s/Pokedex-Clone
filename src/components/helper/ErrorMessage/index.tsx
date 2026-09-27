@@ -6,7 +6,7 @@ export const ErrorMessage = () => {
     <C.Container>
       <C.ErrorMessage>
         <img src={imgSrc} width="32" height="32" alt="Pikachu" />
-        <span>Ops, pokémon não encontrado!</span>
+        <span>Oops, Pokémon not found!</span>
       </C.ErrorMessage>
     </C.Container>
   );

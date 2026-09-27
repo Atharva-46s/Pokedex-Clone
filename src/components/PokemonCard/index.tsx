@@ -52,14 +52,14 @@ export const PokemonCard = (props: PokemonCardProps) => {
             <WeightIcon />
             <span>{`${props.pokemon.weight / 10}`} kg</span>
           </div>
-          <span>Peso</span>
+          <span>Weight</span>
         </C.PokemonWeight>
         <C.PokemonHeight>
           <div>
             <RulerIcon />
             <span>{`${props.pokemon.height / 10}`} m</span>
           </div>
-          <span>Altura</span>
+          <span>Height</span>
         </C.PokemonHeight>
       </C.PokemonFeatures>
       <C.MoreDetailsButton color={color} onClick={handleClick}>

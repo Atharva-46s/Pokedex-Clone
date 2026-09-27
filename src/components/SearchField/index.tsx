@@ -32,7 +32,7 @@ export const SearchField = (props: SearchFieldProps) => {
       <C.InputText
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
-        placeholder="Pesquisar Pokémon"
+        placeholder="Search Pokémon"
         required
       />
       <C.SearchButton>

@@ -30,7 +30,7 @@ export const PokemonType = (props: PokemonTypeProps) => {
     </C.Type>
   ) : (
     <C.ErrorMessage>
-      Ops, não foi possível encontrar o tipo desse pokémon.
+      Oops, this Pokémon type could not be found.
     </C.ErrorMessage>
   );
 };

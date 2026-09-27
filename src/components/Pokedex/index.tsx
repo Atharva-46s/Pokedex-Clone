@@ -69,7 +69,7 @@ export const Pokedex = (props: PokedexProps) => {
                     disabled={props.disabledButton ? true : false}
                   >
                     <AddIcon />
-                    Mostrar mais pokémons
+                    Load more Pokémon
                   </button>
                 )}
 

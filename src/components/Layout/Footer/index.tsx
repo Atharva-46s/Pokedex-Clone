@@ -6,8 +6,8 @@ export const Footer = () => {
     <div className="main-container">
       <C.Container>
         <C.Copy>
-          <span>Direitos de imagem para Nintendo & The Pokémon Company</span>
-          <span>Dados pegos da API - pokeapi.co</span>
+          <span>Image rights belong to Nintendo & The Pokémon Company</span>
+          <span>Data provided by the PokéAPI - pokeapi.co</span>
         </C.Copy>
         <SocialMedia />
       </C.Container>
